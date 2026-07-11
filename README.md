@@ -1,6 +1,4 @@
-# 🏔️ AztecOS
-
-> *A Linux distribution built for those who demand security, performance, and aesthetics — all in one.*
+![Logo AZOS](assets/logos/LOGO AZOS Dark.png)
 
 ![Status](https://img.shields.io/badge/status-in%20development-dc143c?style=flat-square)
 ![Base](https://img.shields.io/badge/base-Debian-A81D33?style=flat-square&logo=debian)
@@ -8,56 +6,63 @@
 
 ---
 
-## What is AztecOS?
+# AztecOS 🐍🛡️
+**El equilibrio perfecto entre la naturaleza, el desarrollo y la ciberseguridad.**
 
-AztecOS is a custom Debian-based Linux distribution designed from the ground up to combine three things that are rarely found together in one OS:
-
-- **Security** — hardened by default, built with cybersecurity tools and configurations baked in
-- **Performance** — optimized kernel parameters and minimal bloat
-- **Aesthetics** — a clean, intentional visual identity inspired by Aztec culture and terminal culture
-
-AztecOS is not just another Ubuntu reskin. It's a full OS philosophy.
+AztecOS es una distribución de Linux basada en Debian, diseñada desde cero para ofrecer un entorno de trabajo eficiente, altamente personalizable y listo para el combate. Ya sea que estés escribiendo código o auditando redes, AztecOS te da las herramientas que necesitas sin sacrificar el rendimiento ni la estética.
 
 ---
 
-## Goals
-
-- Provide a ready-to-use environment for cybersecurity professionals and enthusiasts
-- Replace the need to manually configure Kali/Parrot/Arch for both daily use and security work
-- Offer a unique, cohesive visual identity that doesn't look like every other distro
-- Be genuinely usable as a daily driver, not just a CTF/pentest tool
-
----
-
-## Planned Features
-
-| Feature | Status |
-|---|---|
-| Custom Debian base | 🔄 In progress |
-| Hardened kernel config | 🔄 In progress |
-| Pre-installed security toolset | 📋 Planned |
-| Custom desktop environment / WM | 📋 Planned |
-| AztecOS installer (GUI) | 📋 Planned |
-| Custom theming & icon pack | 📋 Planned |
-| Aztec-themed boot sequence | 📋 Planned |
-| Sandboxed app environments | 📋 Planned |
+## 📖 Tabla de Contenidos
+1. [Sobre el Proyecto](#-sobre-el-proyecto)
+2. [¿Qué nos hace diferentes?](#-qué-nos-hace-diferentes)
+3. [Herramientas Incluidas](#-herramientas-incluidas)
+4. [Guía de Instalación](#-guía-de-instalación)
+5. [Personalización](#-personalización)
 
 ---
 
-## Tech Stack
+## 🎯 Sobre el Proyecto
+La meta de AztecOS es democratizar el acceso a un entorno de hacking y desarrollo profesional. Muchas distribuciones de ciberseguridad están sobrecargadas o son difíciles de usar como sistema operativo diario. AztecOS soluciona esto ofreciendo una base sólida de Debian, garantizando estabilidad, pero con un enfoque minimalista que te permite escalar el sistema a tu medida.
 
-- **Base:** Debian Linux
-- **Languages:** Bash, Python, C
-- **Build tools:** live-build, debootstrap
-- **Security layer:** custom configs, hardened defaults
+### Similitudes con otras distros:
+* **Base Debian:** Comparte la misma estabilidad, gestión de paquetes (`apt`) y seguridad que distros como Kali Linux o Parrot OS.
+* **Orientación al Pentesting:** Viene preconfigurada con las herramientas estándar de la industria.
+
+### Diferencias clave:
+* **Ligereza y Eficiencia:** No instalamos bloatware. Solo lo necesario para que el sistema "vuele", ideal para compilar código o correr scripts de fuerza bruta sin cuellos de botella.
+* **Estética "Nature & Tech":** Un diseño visual único inspirado en la selva y la iconografía azteca (colores terrosos, verde jade), rompiendo el molde del clásico "verde neón sobre negro".
+* **Libertad Total:** Aunque tiene una identidad visual fuerte, la arquitectura permite al usuario desarmar y personalizar cada rincón visual y funcional de la distro.
 
 ---
 
-## Project Status
-
-AztecOS is currently in early development. Architecture decisions and core system design are being finalized. Follow this repo for updates.
+## 🛠️ Herramientas Incluidas
+AztecOS viene con un arsenal preinstalado para que empieces a trabajar desde el primer minuto:
+* **Reconocimiento:** `nmap`, `wireshark`
+* **Explotación y Web:** `burpsuite`
+* **Criptografía y Cracking:** `hashcat`
+* *(Lista en constante expansión)*
 
 ---
+
+## 💻 Guía de Instalación
+*(Nota: AztecOS se encuentra en fase de desarrollo activo. Los enlaces de descarga de la imagen .ISO estarán disponibles próximamente).*
+
+1. **Descarga la ISO:** Obtén la última versión de AztecOS desde la sección de *Releases* en este repositorio.
+2. **Crea tu USB Booteable:** Utiliza herramientas como [BalenaEtcher](https://balena.io/etcher) o `dd` en Linux para flashear la ISO en una memoria USB de al menos 8GB.
+3. **Arranca desde la USB:** Reinicia tu computadora, entra a la BIOS/UEFI y selecciona la USB como primer dispositivo de arranque.
+4. **Instalación:** 
+   * Selecciona "Install AztecOS" en el menú de arranque.
+   * Sigue el asistente gráfico para configurar tu idioma, zona horaria y particiones de disco.
+   * Crea tu usuario administrador y espera a que finalice la instalación.
+5. **¡Listo!** Retira la USB y reinicia para entrar a tu nuevo entorno.
+
+---
+
+## 🎨 Personalización
+AztecOS anima a los usuarios a hacer suyo el sistema. En la carpeta `assets/` de este repositorio encontrarás todos los logos oficiales y fondos de pantalla (wallpapers) para que puedas aplicarlos incluso si usas otros entornos de escritorio. 
+
+Siéntete libre de modificar los temas GTK y el archivo `.bashrc` para adaptar la terminal a tu flujo de trabajo.
 
 ## Author
 
