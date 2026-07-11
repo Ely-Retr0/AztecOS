@@ -1,4 +1,4 @@
-![Logo AZOS](assets/logos/LOGO AZOS Dark.png)
+![Logo AZOS](assets/logos/LOGO%20AZOS%20Dark.png)
 
 ![Status](https://img.shields.io/badge/status-in%20development-dc143c?style=flat-square)
 ![Base](https://img.shields.io/badge/base-Debian-A81D33?style=flat-square&logo=debian)
