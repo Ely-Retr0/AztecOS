@@ -13,7 +13,7 @@ AztecOS is a Debian-based Linux distribution, designed from the ground up to off
 
 ---
 
-## 📖 Table of Contents
+##  Table of Contents
 1. [About the Project](#-about-the-project)
 2. [System Requirements](#-system-requirements)
 3. [Download](#-download)
@@ -44,7 +44,7 @@ AztecOS provides a clean, efficient, and visually unique environment.
 
 ---
 
-## 📋 System Requirements
+##  System Requirements
 To ensure optimal performance, your hardware should meet these minimum requirements:
 * **Processor:** 64-bit Dual Core CPU (1.5 GHz or higher).
 * **RAM:** 2 GB (4 GB recommended for cybersecurity tasks).
@@ -73,7 +73,7 @@ AztecOS utilizes a unique command-line interface for tool management. Simply typ
 
 ---
 
-## 💻 Installation Guide
+##  Installation Guide
 
 ### Virtual Installation (VirtualBox)
 1. Create a new "Linux" (Debian 64-bit) virtual machine.
