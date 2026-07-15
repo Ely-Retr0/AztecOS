@@ -32,7 +32,7 @@ AztecOS provides a clean, efficient, and visually unique environment.
 *   **Clean Desktop:** Preconfigured with XFCE for maximum performance.
 ![img term](assets/sysimages/aztcterm.png)
 *   **Unique Branding:** Custom wallpapers and icons inspired by Aztec culture.
-![img tools](assets/sysimages/aztctools.png)
+![img grub](assets/sysimages/grubazt.png)
 
 
 ---
