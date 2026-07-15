@@ -48,13 +48,13 @@ You can download the latest stable release of the AztecOS ISO image from the **R
 ---
 
 ## 🛠️ Included Tools (Manual)
-AztecOS utilizes a unique command-line interface for tool management. Simply type `tools-help` in your terminal to view this manual. Use the `[command]` to install your desired suite:
+AztecOS utilizes a unique command-line interface for tool management. Simply type `tools-help` in your terminal to view this manual. Use the command specified below to install your desired suite:
 
 | Command | Category | Purpose |
 | :--- | :--- | :--- |
-| `tools-cibersec1` | Network Basics | Core networking: `nmap`, `wireshark`, `netcat`. |
-| `tools-cibersec2` | Intermed. Pentest | Scanning & Exploitation: `gobuster`, `hashcat`, `hydra`. |
-| `tools-cibersec3` | Full Pentest Suite | Advanced toolkit: `ffuf`, `cewl`, `crunch`, `smbclient`. |
+| `tools-cibersec-1` | Network Basics | Core networking: `nmap`, `wireshark`, `netcat`. |
+| `tools-cibersec-2` | Intermed. Pentest | Scanning & Exploitation: `gobuster`, `hashcat`, `hydra`. |
+| `tools-cibersec-3` | Full Pentest Suite | Advanced toolkit: `ffuf`, `cewl`, `crunch`, `tcpdump`, `smbclient`. |
 | `tools-dev` | Development | Dev essentials: `git`, `python3`, `docker`, `VS Code`, `Zed`. |
 | `tools-office` | Productivity | Office suite: `libreoffice`, `cherrytree`, `thunderbird`. |
 | `tools-videoeditor` | Design & Video | Creative suite: `gimp`, `inkscape`, `audacity`, `pitivi`. |
@@ -94,4 +94,4 @@ AztecOS encourages users to make the system their own. In the `assets/` folder, 
 *Think outside the firewall*
 
 ---
-> ⚠️ This project is a work in progress.
+> ⚠️ This project is a work in progress. The first version is available now!.
