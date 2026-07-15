@@ -75,21 +75,18 @@ AztecOS utilizes a unique command-line interface for tool management. Simply typ
 
 ## 💻 Installation Guide
 
-### Virtual Installation (Recommended for Testing)
-1. Download and install [VirtualBox](https://www.virtualbox.org/).
-2. Create a new "Linux" (Debian 64-bit) virtual machine.
+### Virtual Installation (VirtualBox)
+1. Create a new "Linux" (Debian 64-bit) virtual machine.
+2. **Important:** Go to **Settings > System > Motherboard** and check **"Enable EFI (special OSes only)"**.
 3. Assign at least 2GB of RAM and 20GB of dynamic storage.
-4. In **Settings > Storage**, mount the downloaded AztecOS `.iso` file.
-5. Start the VM and follow the graphical installer prompts.
+4. Go to **Settings > Storage**. Under the "Controller: IDE" or "SATA" tree, click on the empty disk icon, then click the disk icon on the right to **"Choose a disk file"** and select your `AztecOS.iso`.
+5. Start the VM and follow the graphical installer.
 
 ### Physical Installation
-1. Flash the ISO to a USB drive (minimum 8GB) using [BalenaEtcher](https://balena.io/etcher) or the `dd` command:
-   `sudo dd if=aztecos.iso of=/dev/sdX bs=4M status=progress`
-2. Reboot your computer and enter the **BIOS/UEFI** menu.
-3. Change the boot order to prioritize the USB drive.
-4. Select "Install AztecOS" and follow the wizard to configure your partitions and user accounts.
-5. Once finished, remove the USB and restart to enter your new environment.
-
+1. Flash the ISO to a USB drive (min 8GB) using [BalenaEtcher](https://balena.io/etcher).
+2. Reboot your PC and enter the **BIOS/UEFI** (usually F2, F12, or Del).
+3. Select your USB drive as the primary boot device.
+4. Follow the installer wizard to partition your disk and set up your user.
 ---
 
 ## 🎨 Customization
