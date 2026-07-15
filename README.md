@@ -23,8 +23,19 @@ AztecOS is a Debian-based Linux distribution, designed from the ground up to off
 
 ---
 
-## 🚀 About the Project
+## About the Project
 The goal of AztecOS is to democratize access to a professional hacking and development environment. Many cybersecurity distributions are overloaded or difficult to use as a daily driver. AztecOS solves this by offering a solid Debian base with a minimalist approach that allows you to scale the system to your needs.
+
+## 🖼️ About the System
+AztecOS provides a clean, efficient, and visually unique environment. 
+![img dsktp](assets/sysimages/aztcdesktop.png)
+*   **Clean Desktop:** Preconfigured with XFCE for maximum performance.
+![img term](assets/sysimages/aztcterm.png)
+*   **Unique Branding:** Custom wallpapers and icons inspired by Aztec culture.
+![img tools](assets/sysimages/aztctools.png)
+
+
+---
 
 ### What makes us different?
 * **Lightweight and Efficient:** We don't install bloatware. Only what is necessary for the system to "fly".
@@ -43,9 +54,13 @@ To ensure optimal performance, your hardware should meet these minimum requireme
 ---
 
 ## 📥 Download
-You can download the latest stable release of the AztecOS ISO image from the **Releases** section in this repository.
+You can download the full AztecOS v1.3 ISO image here:
+
+👉 **[Download AztecOS v1.3 ISO (Direct Link)](https://drive.google.com/uc?export=download&id=1vSwkyG2ShK0t2FsZNthR2jzgHbmLff6-)**
 
 ---
+
+![Logo tools](assets/sysimages/toolslogo.png)
 
 ## 🛠️ Included Tools (Manual)
 AztecOS utilizes a unique command-line interface for tool management. Simply type `tools-help` in your terminal to view this manual. Use the command specified below to install your desired suite:
