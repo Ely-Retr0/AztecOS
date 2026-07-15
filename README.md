@@ -53,13 +53,6 @@ To ensure optimal performance, your hardware should meet these minimum requireme
 
 ---
 
-## 📥 Download
-You can download the full AztecOS v1.3 ISO image here:
-
-👉 **[Download AztecOS v1.3 ISO (Direct Link)](https://drive.google.com/uc?export=download&id=1vSwkyG2ShK0t2FsZNthR2jzgHbmLff6-)**
-
----
-
 ![Logo tools](assets/sysimages/toolslogo.png)
 
 ## 🛠️ Included Tools (Manual)
@@ -101,6 +94,15 @@ AztecOS utilizes a unique command-line interface for tool management. Simply typ
 
 ## 🎨 Customization
 AztecOS encourages users to make the system their own. In the `assets/` folder, you will find all official logos and wallpapers. Feel free to modify GTK themes and your `.bashrc` or `.zshrc` to adapt the terminal to your specific workflow.
+
+---
+
+## 📥 Download
+You can download the full AztecOS v1.3 ISO image here:
+
+👉 **[Download AztecOS v1.3 ISO (Direct Link)](https://drive.google.com/uc?export=download&id=1vSwkyG2ShK0t2FsZNthR2jzgHbmLff6-)**
+
+---
 
 ## Author
 
