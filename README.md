@@ -55,7 +55,7 @@ To ensure optimal performance, your hardware should meet these minimum requireme
 
 ![Logo tools](assets/sysimages/toolslogo.png)
 
-## 🛠️ Included Tools (Manual)
+## Included Tools (Manual)
 AztecOS utilizes a unique command-line interface for tool management. Simply type `tools-help` in your terminal to view this manual. Use the command specified below to install your desired suite:
 
 | Command | Category | Purpose |
