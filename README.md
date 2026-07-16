@@ -105,7 +105,7 @@ You can download the full AztecOS v1.3 ISO image here:
 
 **Elias Diaz Gutierrez** — [@Ely-Retr0](https://github.com/Ely-Retr0)  
 *Cybersecurity Specialist · Software Developer · Cloud Specialist*  
-*Think outside the firewall*
+Think outside the firewall.
 
 ---
 > ⚠️ This project is a work in progress. The first version is available now!.
